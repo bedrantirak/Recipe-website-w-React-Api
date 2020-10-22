@@ -3,8 +3,8 @@ import Recipe from "./Recipe";
 import './App.css';
 
 const App = () =>{
-  const APP_ID = "bd4e6bc4";
-  const APP_KEY = "92af103e6c8de6672a6c4dc1f2bdc0fd";
+  const APP_ID = "take_your_app_id_from edamam";
+  const APP_KEY = "take_your_app_key_from edamam";
 
   const [recipes, setRecipes] =useState([]);
   const [search,setSearch] = useState("");
